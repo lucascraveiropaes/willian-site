@@ -1,0 +1,152 @@
+/*** GENERAL ***/
+
+p {
+	color: rgba(0,0,0,0.9) !important;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.btn-submit {
+	margin: 0px;
+	background: transparent;
+    color: #FFF;
+}
+	.btn-submit.focus, .btn-submit:focus {
+	    outline: 0;
+	    box-shadow: none;
+	}
+
+.btn-rounded {
+	border-radius: 100px;
+}
+
+.btn-special {
+	padding: 1em 4em;
+	margin-top: 2em
+}
+.underline-bottom {
+	padding-bottom: 7px;
+	border-bottom: 7px solid #FED136;
+	width: 40%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+
+/*** ABOUT ***/
+
+.user-picture {
+	position: absolute;
+	width: 15em;
+	height: 15em;
+	bottom: -28%;
+	left: 50%;
+    transform: translate(-50%, 0%);
+}
+	.user-picture {
+		border-radius: 50%;
+		border: 0.5em solid #ededed;
+		-webkit-box-shadow: 0px 13px 101px -8px rgba(0,0,0,0.51);
+		-moz-box-shadow: 0px 13px 101px -8px rgba(0,0,0,0.51);
+		box-shadow: 0px 13px 101px -8px rgba(0,0,0,0.51);
+	}
+
+	@media (max-width: 767px) {
+	  	.user-picture {
+			bottom: -19%;
+	  	}
+	}
+
+.description-item {
+	width: 32%;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.description-item img {
+	margin-bottom: 20px;
+	width: 70px;
+}
+
+.description-item p {
+	font-weight: 700;
+	font-size: 0.8em;
+}
+
+.skills {
+	background: #1A242D;
+	padding: 2em;
+	text-align: left; 
+}
+	.skills .skill {
+		margin-bottom: 20px;
+	}
+	.skills .skill p {
+		color: #FFF !important;
+		font-weight: 500;
+		font-size: 1.1em;
+		margin: 0;
+	}
+	.skills .skill .progress-bar {
+		background: transparent;
+		border: 1px solid #fff;
+		height: 8px;
+	}
+	.skills .skill .progress-bar .complete {
+		background: #FFF;
+		height: 6px;
+	}
+
+/*** QUOTE ***/
+
+section#quote {
+    background-color: #212529;
+    background-image: url(../img/quote-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+}
+	section#quote h5 {
+		color: white !important;
+		font-weight: 300;
+		font-style: italic;
+		text-align: right;
+		line-height: 1.5em;
+	}
+		section#quote span.right {
+			font-size: 0.79em;
+			opacity: 0.7;
+		}
+
+	section#quote img {
+	    position: absolute;
+	    margin-top: -8%;
+	    margin-left: 14%;
+	    width: 10em;
+	}
+
+	@media (max-width: 767px) {
+		section#quote img {
+	    	width: 8em;
+		    margin-top: -11%;
+		    margin-left: 4%;
+	  	}
+	}
+
+/*** CONTACT ***/
+
+section#contact ul.contact-items {
+  list-style: none;
+}
+section#contact ul.contact-items li {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+}
+section#contact ul.contact-items li i {
+	margin-right: 15px;
+}
