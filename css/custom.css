@@ -42,11 +42,11 @@ p {
 	position: absolute;
 	width: 15em;
 	height: 15em;
-	bottom: -28%;
+	top: calc(100vh - 4.5em);
 	left: 50%;
     transform: translate(-50%, 0%);
 }
-	.user-picture {
+	.user-picture img {
 		border-radius: 50%;
 		border: 0.5em solid #ededed;
 		-webkit-box-shadow: 0px 13px 101px -8px rgba(0,0,0,0.51);
@@ -56,7 +56,7 @@ p {
 
 	@media (max-width: 767px) {
 	  	.user-picture {
-			bottom: -19%;
+			bottom: calc(100vh - 4.5em);
 	  	}
 	}
 
